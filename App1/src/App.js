@@ -1,17 +1,14 @@
-import React from "react";
-import "./App.css";
-import Header from "./Components/Header";
-import Nav from "./Components/Nav";
-import Profile from "./Components/Profile";
+import React, { Component } from "react";
+import Form from "./Components/Form/Form";
 
-function App() {
-  return (
-    <div className="app-wrapper">
-      <Header />
-      <Nav />
-      <Profile />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Form />
+      </div>
+    );
+  }
 }
 
 export default App;
